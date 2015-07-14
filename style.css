@@ -1,0 +1,46 @@
+#star-frame .glyphicon {
+  margin: 0.3em;
+  font-size: 1.75em;
+}
+
+#star-frame, #answer-frame {
+  width: 40%;
+  float: left;
+}
+
+#btn-frame {
+  width: 20%;
+  float: left;
+  text-align: center;
+  margin-top: 70px;
+}
+
+#btn-frame .redraw-count {
+  padding-left: 5px;
+}
+
+#star-frame .well, #answer-frame .well {
+ height: 200px; 
+}
+
+#number-frame .number, #answer-frame .number {
+  margin: .5em;
+  background-color: #bbb;
+  width: 33px;
+  font-size: 22px;
+  border-radius: 50%;
+  border-width: 0;
+  outline-width: 0;
+}
+
+#number-frame .number:disabled {
+  opacity: .3;
+}
+
+#number-frame .number-used {
+  visibility: hidden;
+}
+
+#done-frame {
+  font-size: 22px;
+}
